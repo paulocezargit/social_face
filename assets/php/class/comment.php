@@ -1,6 +1,6 @@
-<?php 
+<?php
 
-class Post{
+class Comment{
     
     function Create(){
 
@@ -14,14 +14,14 @@ class Post{
 
     }
 
-    function DeleteAllUser(){
-    	
-    }
+    function DeleteAllPost(){
 
+    }
+    
     function DeleteAll(){
 
     }
-
+ 
 }
 
 ?>
