@@ -3,7 +3,7 @@
     
     body {
         font-size: 16px;
-        background-color: #ffffff;
+        background-color: #dedede;
     }
 
     h1{ font-size: 40px; font-weight: bold; }
@@ -34,5 +34,18 @@
     .s-grid-g-5{ gap:5px; }
     .s-grid-g-10{ gap:10px; }
     .s-grid-g-15{ gap:15px; }
+
+    .s-formaccess{ background-color: #fff; width: 400px; position: fixed; top:50%; left:50%; transform:translate(-50%, -50%); border-radius: 6px; }
+    .s-formaccess-box{ padding: 40px; box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; }
+    .s-formaccess-icon{ width: 90px; height: 90px; margin-top:20px; }
+    .s-formaccess-title{ font-size: 30px; margin: 0px; color: #444; margin-bottom: 20px; margin-top: 20px; text-align:center; }
+    .s-formaccess-group{ margin-bottom: 20px; }
+    .s-formaccess-label{ color: #999; margin-left: 5px; display: block; width: 100%; box-sizing: border-box;  }
+    .s-formaccess-input{ margin-top:5px; padding: 15px 20px; box-sizing: border-box; width: 100%; border-radius: 5px; border: 1px solid #ccc; outline: none; font-size: 16px; }
+    .s-formaccess-input:focus{  }
+    .s-formaccess-button{ padding: 18px 70px; margin-top: 20px; font-size: 18px; border: none; background-color: #78b675; color: #326e2e; cursor:pointer; border-radius: 4px; }
+    .s-formaccess-button:hover{ background-color: #81c37e; }
+    .s-formaccess-button:active{ background-color: #78b675; }
+
 
 }

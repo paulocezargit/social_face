@@ -2,10 +2,12 @@
 @import url("mobile.css");
 @import url("desktop.css");
 
-.theme-background-primary{ color: #6f67ae; }
-.theme-background-secondary{ color: #8a75b6; }
+.theme-background-primary{ background-color: #6f67ae; }
+.theme-background-secondary{ background-color: #8a75b6; }
 .theme-color-primary{ color: #6f67ae; }
 .theme-color-secondary{ color: #8a75b6; }
 .theme-color-base{ color: #d5c1ff; }
+.theme-color-primary-border:focus{ border-color: #6f67ae; }
 
 body{ padding: 0px; margin: 0px; font-family: "Roboto", sans-serif; }
+input::placeholder { color: #bfbfbf; }
