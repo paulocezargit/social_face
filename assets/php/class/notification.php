@@ -1,16 +1,16 @@
 <?php 
 
 class Notification{
-    
-    function Create(){
+
+    function Create($id_user,$title,$message){
 
     }
 
-    function Delete(){
+    function Delete($id_notification){
 
     }
 
-    function DeleteAllUser(){
+    function DeleteAllUser($id_user){
 
     }
 
