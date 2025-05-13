@@ -48,4 +48,16 @@
     .s-formaccess-button:active{ background-color: #78b675; }
 
 
+    .s-indexpage{ display: grid; grid-template-columns: 1fr 3fr 1fr; }
+    .s-indexpage-left{ width:100%; box-sizing:border-box; }
+    .s-indexpage-center{ width:100%; box-sizing:border-box; }
+    .s-indexpage-right{ width:100%; box-sizing:border-box; }
+    .s-post-list{  }
+    .s-post-item{ border: 1px solid #ccc; }
+    .s-post-user{ display: grid; grid-template-columns:32px auto; }
+    .s-post-photo{ width:32px; height:32px; }
+    .s-post-name{  }
+    .s-post-date{  }
+
+
 }
