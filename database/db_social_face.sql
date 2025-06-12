@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 5.2.1
+-- version 5.2.0
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Tempo de geração: 08/04/2025 às 16:25
--- Versão do servidor: 10.4.28-MariaDB
--- Versão do PHP: 8.2.4
+-- Tempo de geração: 12-Jun-2025 às 02:56
+-- Versão do servidor: 10.4.27-MariaDB
+-- versão do PHP: 8.0.25
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -24,7 +24,7 @@ SET time_zone = "+00:00";
 -- --------------------------------------------------------
 
 --
--- Estrutura para tabela `tb_admin`
+-- Estrutura da tabela `tb_admin`
 --
 
 CREATE TABLE `tb_admin` (
@@ -39,7 +39,23 @@ CREATE TABLE `tb_admin` (
 -- --------------------------------------------------------
 
 --
--- Estrutura para tabela `tb_follower`
+-- Estrutura da tabela `tb_comment`
+--
+
+CREATE TABLE `tb_comment` (
+  `id` bigint(20) NOT NULL,
+  `id_post` bigint(20) NOT NULL,
+  `id_user` bigint(20) NOT NULL,
+  `context` varchar(1024) NOT NULL,
+  `date_create` datetime NOT NULL DEFAULT current_timestamp(),
+  `date_update` datetime NOT NULL,
+  `status` varchar(20) NOT NULL DEFAULT 'public'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+-- --------------------------------------------------------
+
+--
+-- Estrutura da tabela `tb_follower`
 --
 
 CREATE TABLE `tb_follower` (
@@ -53,7 +69,7 @@ CREATE TABLE `tb_follower` (
 -- --------------------------------------------------------
 
 --
--- Estrutura para tabela `tb_notification`
+-- Estrutura da tabela `tb_notification`
 --
 
 CREATE TABLE `tb_notification` (
@@ -68,7 +84,7 @@ CREATE TABLE `tb_notification` (
 -- --------------------------------------------------------
 
 --
--- Estrutura para tabela `tb_post`
+-- Estrutura da tabela `tb_post`
 --
 
 CREATE TABLE `tb_post` (
@@ -84,7 +100,7 @@ CREATE TABLE `tb_post` (
 -- --------------------------------------------------------
 
 --
--- Estrutura para tabela `tb_user`
+-- Estrutura da tabela `tb_user`
 --
 
 CREATE TABLE `tb_user` (
@@ -110,43 +126,55 @@ CREATE TABLE `tb_user` (
 --
 
 --
--- Índices de tabela `tb_admin`
+-- Índices para tabela `tb_admin`
 --
 ALTER TABLE `tb_admin`
   ADD PRIMARY KEY (`id`);
 
 --
--- Índices de tabela `tb_follower`
+-- Índices para tabela `tb_comment`
+--
+ALTER TABLE `tb_comment`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Índices para tabela `tb_follower`
 --
 ALTER TABLE `tb_follower`
   ADD PRIMARY KEY (`id`);
 
 --
--- Índices de tabela `tb_notification`
+-- Índices para tabela `tb_notification`
 --
 ALTER TABLE `tb_notification`
   ADD PRIMARY KEY (`id`);
 
 --
--- Índices de tabela `tb_post`
+-- Índices para tabela `tb_post`
 --
 ALTER TABLE `tb_post`
   ADD PRIMARY KEY (`id`);
 
 --
--- Índices de tabela `tb_user`
+-- Índices para tabela `tb_user`
 --
 ALTER TABLE `tb_user`
   ADD PRIMARY KEY (`id`);
 
 --
--- AUTO_INCREMENT para tabelas despejadas
+-- AUTO_INCREMENT de tabelas despejadas
 --
 
 --
 -- AUTO_INCREMENT de tabela `tb_admin`
 --
 ALTER TABLE `tb_admin`
+  MODIFY `id` bigint(20) NOT NULL AUTO_INCREMENT;
+
+--
+-- AUTO_INCREMENT de tabela `tb_comment`
+--
+ALTER TABLE `tb_comment`
   MODIFY `id` bigint(20) NOT NULL AUTO_INCREMENT;
 
 --
