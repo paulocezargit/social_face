@@ -1,5 +1,7 @@
-<?php include("header.php"); ?>
+<?php 
 
+$page_name = "404"." | Socialface";
 
+include("assets/pages/p-home.php"); 
 
-<?php include("footer.php"); ?>
+?>
