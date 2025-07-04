@@ -30,7 +30,6 @@
     .s-grid-70-30{ display: grid; grid-template-columns: 7fr 3fr; }
     .s-grid-40-60{ display: grid; grid-template-columns: 4fr 6fr; }
     .s-grid-60-40{ display: grid; grid-template-columns: 6fr 4fr; }
-    .s-grid-page{ grid-template-columns: 1fr 4fr 1fr }
     .s-grid-g-5{ gap:5px; }
     .s-grid-g-10{ gap:10px; }
     .s-grid-g-15{ gap:15px; }
@@ -46,12 +45,13 @@
     .s-formaccess-button{ padding: 18px 70px; margin-top: 20px; font-size: 18px; border: none; background-color: #78b675; color: #326e2e; cursor:pointer; border-radius: 4px; }
     .s-formaccess-button:hover{ background-color: #81c37e; }
     .s-formaccess-button:active{ background-color: #78b675; }
-
-
-    .s-indexpage{ display: grid; grid-template-columns: 1fr 3fr 1fr; }
-    .s-indexpage-left{ width:100%; box-sizing:border-box; }
-    .s-indexpage-center{ width:100%; box-sizing:border-box; }
-    .s-indexpage-right{ width:100%; box-sizing:border-box; }
+    
+    .s-gridpage{  }
+    .s-gridpage-grid{ display: grid; grid-template-columns: 1fr 3fr 1fr; }
+    .s-gridpage-left{ width:100%; box-sizing:border-box; }
+    .s-gridpage-center{ width:100%; box-sizing:border-box; }
+    .s-gridpage-right{width:100%; box-sizing:border-box;  }
+    
     .s-post-list{  }
     .s-post-item{ border: 1px solid #ccc; }
     .s-post-user{ display: grid; grid-template-columns:32px auto; }
