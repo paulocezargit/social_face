@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="512.0px"
+   height="512.0px"
+   viewBox="0 0 512.0 512.0"
+   version="1.1"
+   id="SVGRoot"
+   sodipodi:docname="three_points.svg"
+   inkscape:version="1.1.2 (b8e25be833, 2022-02-05)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview893"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="px"
+     showgrid="true"
+     inkscape:zoom="0.66368547"
+     inkscape:cx="316.41494"
+     inkscape:cy="388.73836"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1">
+    <inkscape:grid
+       type="xygrid"
+       id="grid956" />
+  </sodipodi:namedview>
+  <defs
+     id="defs888" />
+  <g
+     inkscape:label="Camada 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <circle
+       style="fill:#1a1a1a;stroke-width:70;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke markers fill"
+       id="path1003"
+       cx="260.68192"
+       cy="98.026947"
+       r="60" />
+    <circle
+       style="fill:#1a1a1a;stroke-width:70;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke markers fill"
+       id="path1003-0"
+       cx="260.68192"
+       cy="258.18051"
+       r="60" />
+    <circle
+       style="fill:#1a1a1a;stroke-width:70;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke markers fill"
+       id="path1003-0-4"
+       cx="261.09433"
+       cy="417.84082"
+       r="60" />
+  </g>
+</svg>

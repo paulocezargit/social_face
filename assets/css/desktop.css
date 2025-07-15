@@ -62,9 +62,13 @@
 
     .s-post-list{  }
     .s-post-item{ border: 1px solid #ccc; }
+    .s-post-head{ }
     .s-post-user{ display: grid; grid-template-columns:32px auto; }
     .s-post-photo{ width:32px; height:32px; }
+    .s-post-icon{ }
+    .s-post-image{ }
     .s-post-name{  }
+    .s-post-description{  }
     .s-post-date{  }
 
 
